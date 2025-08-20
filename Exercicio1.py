@@ -1,9 +1,10 @@
 #Exercicio1
-Sistema de estoque com apenas um produto
-1 opção de cadastro de nome do produto
-2 opção de retirar produto do estoque (Precisa verificar se tem o produto)
-3 opção de adicionar produto no estoque (Precisa adicionar um numero maior que zero)
-4 opção de ver a quantidade no estoque
+#Sistema de estoque com apenas um produto
+#1 opção de cadastro de nome do produto
+#2 opção de retirar produto do estoque (Precisa verificar se tem o produto)
+#3 opção de adicionar produto no estoque (Precisa adicionar um numero maior que zero)
+#4 opção de ver a quantidade no estoque
+
 def menu():
     print("\n--- Sistema de Estoque ---")
     print("1- Cadastrar Produto")
