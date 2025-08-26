@@ -24,7 +24,7 @@ while True:
     opcao = menu()
         
     if opcao == "1":
-        produto = input("Digite o nome do produto:")
+        produto = input("Digite o nome do produto: ")
         quantidade = 0
         print(f"produto '{produto}' Cadastrado com sucesso!")
     
@@ -32,7 +32,7 @@ while True:
         if produto is None:
             print("Nenhum Produto Cadastrado ainda!")
         else:
-           retirar = int(input("Digite a quantidade a retirar"))
+           retirar = int(input("Digite a quantidade a retirar: "))
            if retirar <= 0:
                 print ("A quantidade deve ser maior que zero!")
            elif retirar > quantidade:
@@ -63,4 +63,5 @@ while True:
             break
     
     else:
+
         print("Opção Invalida! Tente Novamente")
