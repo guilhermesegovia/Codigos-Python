@@ -1,4 +1,11 @@
 #Exercicio 5
+# 1 - Cadastro dos clientes 
+# 2 - Acesso ao sistema
+# 3 - Reserva de corte
+# 4 - Incluir serviços
+# 5 - 
+# 6 - Suporte ao cliente
+# 7 - 
 
 
 from dataclasses import dataclass
@@ -102,4 +109,5 @@ while True:
         print("Fechando Programa... ")
         break
     else:
+
         print("Opção não reconhecida")
